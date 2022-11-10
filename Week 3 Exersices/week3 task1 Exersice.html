@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Week 3 Task 1</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+
+            * {
+                box-sizing: border-box;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            body, ul, p {
+                padding: 0;
+                margin: 0;
+                }
+
+            .header {
+                background: #333333;
+                height: 90px;
+            }
+
+            .header-inner-container {
+                height: 100%;
+                width: 70%;
+                margin: 0 auto;
+                padding-top: 15px;
+            }
+
+            .logo {
+                float: left;
+                width: 30%;
+                color: #c1bab7;
+                font-size: 50px;
+                font-weight: 700;
+
+            }
+
+            .menu {
+                float: right;
+                width: 62%;
+                margin-top: 10px;
+                text-align: right;
+            }
+
+            .menu ul {
+                display: inline-block;
+                list-style-type: none;
+                background: #232324;
+            }
+
+            .menu ul li {
+                display: inline-block;
+                padding: 10px;
+            }
+
+            .menu ul li a {
+                color: white;
+                text-decoration: none;
+            }
+
+            .menu ul li a:hover {
+                color: orange;
+            }
+            /* NAV MENU END*/
+
+            /* MAIN START*/
+            .main-inner-container {
+                height: 400px;
+                width: 70%;
+                margin: 25px auto;
+            }
+
+            .main-left {
+                background: #dedede;
+                height: 100%;
+                width: calc(40% - 15px);
+                float: left;
+                margin-right: 15px;
+            }
+
+            .main-right {
+                background: #333333;
+                height: 100%;
+                width: 60%;
+                float: right;
+            }
+            /*MAIN END*/
+
+            /* ARTICLE SECTION START*/
+            .articles-inner-container {
+                width: 70%;
+                margin: 0 auto;
+            }
+
+            .article {
+                width: calc(33% - 15px);
+                float: left;
+                margin-right: 25px;
+            }
+            .article h2, .news-box h2 {
+                color: #9d9b9c;
+                font-size: 16px;
+                text-transform: uppercase;
+            }
+
+            .article img {
+                width: 100px;
+                height: 100px;
+                border: 1px solid silver;
+                float: left;
+                margin-right: 10px;
+                padding: 5px;
+
+            }
+
+            .article p {
+                line-height: 1.4;
+                text-align: justify;
+            }
+            .article:nth-child(3) {
+                width: calc(33% - 15px);
+                margin-right: 0px;
+                float: right;
+            }
+
+            .article > div, news > box > div > a {
+                text-align: right;
+                margin-top: 15px;
+            }
+
+            .article > div > a, .news-box > div > a {
+                color: orange;
+                text-decoration: none;
+            }
+
+            .article > div > a:hover {
+                opacity: 0.7;
+            }
+            /* ARTICLE SECTION END*/
+            /*NEWS START*/
+            .news-inner-container {
+                width: 70%;
+                margin: 0 auto;
+                padding-top: 37px;
+            }
+            .news {
+                clear: both;
+            }
+
+            .news-box {
+                float: left;
+                width: 25%;
+                padding-right: 15px;
+            }
+            .news-box:nth-child(4) {
+                padding-left: 15px;
+                padding-right: 0;
+            }
+            .news-box img {
+                width: 100%;
+                padding: 5%;
+                border: solid silver;
+            }
+            /*NEWS END*/
+            /*FOOTER START*/
+            .clear {
+                clear: both;
+            }
+            .footer {
+                background: #333333;
+                height: 105px;
+            }
+            /*FOOTER END*/
+        </style>
+    </head>
+    <body>
+                <!-- HEADER START-->
+        <div class="header">
+            <div class="header-inner-container">
+                <div class="logo">Logo</div>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="">TEXT LINK</a>
+                        </li>
+                        <li>
+                            <a href="">TEXT LINK</a>
+                        </li>
+                        <li>
+                            <a href="">TEXT LINK</a>
+                        </li>
+                        <li>
+                            <a href="">TEXT LINK</a>
+                        </li>
+                        <li>
+                            <a href="">TEXT LINK</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- HEADER END-->
+        <!-- MAIN START-->
+        <div class="main">
+            <div class="main-inner-container">
+            <div class="main-left"></div>
+            <div class="main-right"></div>
+        </div>
+    </div>
+        <!-- MAIN END-->
+
+        <!-- ARTICLE SECTION START-->
+            <div class="articles">
+                <div class="articles-inner-container">
+                    <div class="article">
+                        <h2>Lorem ipsum dolor sit amet.</h2>
+                        <img src="Images/mount.jpg" alt="img not found" />
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur 
+                            adipisicing elit. Voluptatibus qui dolores,
+                            officiis possimus placeat iusto vel tempore
+                            doloremque quos eaque. Ipsam quisquam 
+                            cupiditate distinctio. Eaque consequuntur
+                            ut fuga est quaerat!
+                            </p>
+                            <div>
+                                <a href="">Read more <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                    </div>
+                    <div class="article">
+                        <h2>Lorem ipsum dolor sit amet.</h2>
+                        <img src="Images/mount.jpg" alt="img not found" />
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur 
+                            adipisicing elit. Voluptatibus qui dolores,
+                            officiis possimus placeat iusto vel tempore
+                            doloremque quos eaque. Ipsam quisquam 
+                            cupiditate distinctio. Eaque consequuntur
+                            ut fuga est quaerat!
+                            </p>
+                            <div>
+                                <a href="">Read more <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                    </div>
+                    <div class="article">
+                        <h2>Lorem ipsum dolor sit amet.</h2>
+                        <img src="Images/mount.jpg" alt="img not found" />
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur 
+                            adipisicing elit. Voluptatibus qui dolores,
+                            officiis possimus placeat iusto vel tempore
+                            doloremque quos eaque. Ipsam quisquam 
+                            cupiditate distinctio. Eaque consequuntur
+                            ut fuga est quaerat!
+                            </p>
+                            <div>
+                                <a href="">Read more <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                    </div>
+            </div>
+        </div>
+        <!-- ARTICLE SECTION END-->
+        <!-- NEWS START-->
+        <div class="news">
+            <div class="news-inner-container">
+                <div class="news-box">
+                    <img src="/Images/mount.jpg" alt=""/>
+                    <h2>Lorem ipsum</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. 
+                        Voluptatibus, sint!
+                    </p>
+                    <div>
+                    <a href="">Read more <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="news-box">
+                    <img src="/Images/mount.jpg" alt=""/>
+                    <h2>Lorem ipsum</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. 
+                        Voluptatibus, sint!
+                    </p>
+                    <div>
+                    <a href="">Read more <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="news-box">
+                    <img src="/Images/mount.jpg" alt=""/>
+                    <h2>Lorem ipsum</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. 
+                        Voluptatibus, sint!
+                    </p>
+                    <div>
+                    <a href="">Read more <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="news-box">
+                    <img src="/Images/mount.jpg" alt=""/>
+                    <h2>Lorem ipsum</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. 
+                        Voluptatibus, sint!
+                    </p>
+                    <div>
+                    <a href="">Read more <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <!-- NEWS END-->
+        <!-- FOOTER START-->
+        <div class="clear"></div>
+        <div class="footer"></div>
+        <!-- FOOTER END-->
+    </body>
+</html>
