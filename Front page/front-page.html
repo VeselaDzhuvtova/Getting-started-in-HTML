@@ -1,0 +1,191 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Front Page</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&display=swap');
+            body, html {
+                margin: 0;
+                height: 100%;
+            }
+
+            ul {
+                margin: 0;
+                padding: 0;
+            }
+
+            .header-container {
+                min-height: 100%;
+                background: url('/Images/mount.jpg');
+                background-size: cover;
+                background-position: center center;
+            }
+
+            .header-container-inner {
+                width: 70%;
+                margin: 0 auto;
+            }
+
+            .header-inner-left {
+                width: 30%;
+                float: left;
+            }
+
+            .header-inner-right {
+                width: 70%;
+                float: right;
+            }
+
+            .pad-15 {
+                padding: 15px;
+            }
+
+            .logo {
+                background: rgba(188, 196, 206, 0.9);
+                text-align: center;
+                display: inline;
+                padding: 0 25px;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 25px;
+            }
+
+            .nav {
+                list-style-type: none;
+                margin-top: 4px;
+                text-align: right;
+            }
+
+            .nav li {
+                display: inline-block;
+                padding-right: 15px;
+            }
+
+            .nav li a {
+                color: black;
+                font-family: Open Sans;
+                text-decoration: none;
+                font-weight: 800;
+            }
+
+            .nav li a:hover {
+                opacity: 0.4;
+            }
+            .nav li:hover .nav-dropdown{
+                display: block;
+            }
+
+            .nav-dropdown {
+                background: rgba(188, 196, 206, 0.9);
+                position: absolute;
+                padding:14px 7px 7px;
+                text-align: left;
+                min-width: 100px;
+                display: none;
+            }
+            .nav-dropdown li {
+                display: block;
+                margin-bottom: 5px;
+            }
+
+            .nav-dropdown li a {
+                color: black;
+                font-weight: 300;
+            }
+
+            .dropdown-header {
+                color: black;
+                padding-bottom: 7px;
+                border-bottom: 1px solid black;
+            }
+
+            .header-text {
+                padding-top: 8%;
+                text-align: center;
+            }
+
+            .header-text h1 {
+                text-transform: uppercase;
+                font-size: 60px;
+                font-weight: 800;
+                letter-spacing: 11;
+                color: black;
+                margin: 0;
+            }
+
+            .header-text h2 {
+                color: black;
+                text-transform: uppercase;
+                font-weight: 800;
+                font-size: 25px;
+                letter-spacing: 11;
+                opacity: 0.7;
+            }
+
+            .header-text button {
+                border: unset;
+                color: black;
+                background: white;
+                padding: 10px 20px;
+                text-transform: uppercase;
+            }
+
+            .header-text button:hover {
+                cursor: pointer;
+                opacity: 0.7;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header-container">
+            <div class="header-container-inner">
+                <div class="header-inner-left">
+                    <div class="pad-15">
+                        <div class="logo">MY SITE</div>
+                    </div>
+                </div>
+                <div class="header-inner-right">
+                    <div class="pad-15">
+                        <ul class="nav">
+                            <li>
+                              <a href="">Home</a>  
+                            </li>
+                            <li>
+                              <a href="">
+                                <span>Second item</span>
+                                <ul class="nav-dropdown">
+                                    <li class="dropdown-header">
+                                        Categories
+                                    </li>
+                                    <li>
+                                        <a href="">Dropdown item one</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Dropdown item two</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Dropdown item three</a>
+                                    </li>
+                                </ul>
+                              </a>  
+                            </li>
+                            <li>
+                               <a href="">Third item</a> 
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="header-text">
+            </div>
+            <div class="header-text clear-fix">
+                <h1>This is header</h1>
+                <h2>This i under header</h2>
+                <div>
+                    <button>Call to action</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
