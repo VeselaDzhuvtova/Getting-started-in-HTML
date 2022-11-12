@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Selectors exalples</title>
+        <style>
+            .box.box-two {
+                color: red;
+            }
+
+            div span {
+                color: blue;
+            }
+            p {
+                color: green !important;
+            }
+
+            .example {
+                color: violet;
+            }
+
+            #priority {
+                color: brown;
+            }
+
+            a:link {
+                color: blueviolet;
+            }
+
+            a:hover {
+                color: blue;
+            }
+            a {
+                color: black;
+                text-decoration: none;
+            }
+
+            .box:first-child {
+                color: bisque;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">1</div>
+        <div class="box box-two">3</div>
+        <div>
+            <p>
+                Lorem ipsum dolor sit amet.
+                <span>123</span>
+            </p>
+        </div>
+        <a href="/13245656">Test</a>
+        <p id = "priority" class="example">
+            Priority
+        </p>
+        <div>
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+        </div>
+    </body>
+</html>

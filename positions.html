@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Positions</title>
+        <style>
+            * {
+                padding: 0;
+                margin: 0;
+            }
+            .pos-relative {
+                position: relative;
+                top: 20px;
+                left: 30px;
+            }
+
+            .pos-absolute {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+            }
+
+            .box {
+                width: 100px;
+                height: 100px;
+                background: blue;
+                position: relative;
+                top: 20px;
+            }
+
+            .badge {
+                width: 40px;
+                height: 40px;
+                background: orange;
+                position: absolute;
+                top: -10px;
+                left: 15px;
+            }
+
+            .pos-fixed {
+                background: red;
+                height: 50px;
+                position: fixed;
+                top: 0;
+                width: 100%;
+            }
+
+            .pos-sticky {
+                background: yellow;
+                top: 30px;
+                position: sticky;
+                z-index: 99;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- <h2 class="pos-relative">1</h2>
+        <h2>2</h2>
+        <h2>3</h2>
+        <h2 class="pos-absolute">4</h2> -->
+     -->
+     <h2 class="pos-sticky">aaaa</h2>
+        <div class="box">
+            <div class="badge">20% OFF</div>
+        </div>
+        <div class="pos-fixed"></div>
+    </body>
+</html>
