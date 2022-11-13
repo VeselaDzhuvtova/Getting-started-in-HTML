@@ -1,0 +1,153 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Week3 Ex 2</title>
+        <style>
+            * {
+                box-sizing: border-box;
+                font-family: Comic Sans MS;
+            }
+
+            body, html, p, h1,h2, h3,h4,h5,ul,li {
+                padding: 0;
+                margin: 0;
+            }
+            
+            img {
+                width: 100%;
+            }
+            .clear-fix {
+                clear: both;
+            }
+
+            .main-button {
+                background: unset;
+                color: white;
+                border: 1px solid white;
+                padding: 8px 24px;
+            }
+
+            .main-button:hover {
+                cursor: pointer;
+                background: white;
+                color: #4842A2;
+            }
+            /*HEADER START*/
+            .header {
+                background: url(Images/4.jpg);
+                min-height: 300px;
+            }
+
+            .header ul {
+                float: right;
+                margin-top: 10px;
+            }
+
+            .header ul li {
+                display: inline-block;
+                margin-right: 16px;
+            }
+
+            .header ul li a {
+                color: white;
+                text-decoration: none;
+            }
+
+            .header ul li a:hover {
+                color:  #48CA95;
+            }
+
+            .h-container {
+                width: 80%;
+                margin: 50px auto;
+            }
+
+            .header-left {
+                width: 49%;
+                display: inline-block;
+                color: white;
+            }
+
+            .header-right {
+                width: 49%;
+                display: inline-block;
+            }
+
+            .header-left .main-button {
+                margin-right: 10px;
+                margin-top: 16px;
+            }
+            /*HEADER END*/
+            /*INFO START*/
+
+                .info {
+                    background: white;
+                    padding-top: 30px;
+                }
+
+                .i-container {
+                    background: purple;
+                    width: 80%;
+                    margin: 0 auto;
+                }
+
+                .i-box {
+                    height: 100px;
+                    width: 30%;
+                    border: 3px solid #48ca95;
+                }
+            /*INFO END*/
+
+        </style>
+    </head>
+    <body>
+        <!-- HEADER START-->
+        <div class="header">
+            <ul>
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">About</a>
+                </li>
+                <li>
+                    <a href="">Shop</a>
+                </li>
+                <li>
+                    <a href="">Contact us</a>
+                </li>
+            </ul>
+            <div class="clear-fix"></div>
+            <div class="h-container">
+                <div class="header-left">
+                    <p>Computers and Laptops</p>
+                    <h1>Accessories</h1>
+                    <p>
+                        Lorem ipsum dolor,
+                         sit amet consectetur 
+                         adipisicing elit. 
+                         Laudantium corporis 
+                         adipisci qui molestiae 
+                         beatae a, maiores illo 
+                         iure placeat quidem.
+                        </p>
+                    <button class="main-button">Buy now</button>
+                    <button class="main-button">Contacts</button>
+                </div>
+                <div class="header-right">
+                    <img src="Images/1.png" alt="Image not found">
+                </div>
+            </div>
+        </div>
+        <!--HEADER END-->
+
+        <!-- INFO START-->
+        <div class="info">
+            <div class="i-container">
+                <div class="i-box"></div>
+            </div>
+        </div>
+        <!-- INFO END-->
+
+    </body>
+</html>
