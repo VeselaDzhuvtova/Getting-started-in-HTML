@@ -1,0 +1,154 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body, html, p, h1,h2, h3,h4,h5,ul,li {
+    padding: 0;
+    margin: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.header-container {
+    height: 500px;
+    background: url("/Exam/Images/header.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.navigation {
+
+    background: #162222;
+    opacity: 0.5;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    font-family: Open Sans;
+}
+
+.nav {
+    list-style-type: none;
+    margin-top: 4px;
+    text-align: center;
+    border-radius: 15px;
+    border-top: 10px;
+    border-bottom: 10px;
+}
+
+.nav li {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.nav li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.nav li a:hover {
+    cursor: pointer;
+    color: #198754;
+}
+.logo {
+    width: 70%;
+    background:  #162222;;
+    opacity: 0.5;
+    margin: 140 auto;
+    border-radius: 25px;
+    height: 150px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.h {
+    color: white;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.p-first {
+    color: white;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.logo > .button {
+    margin-left: 330px
+}
+
+.button {
+    background: #198754;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.button:hover {
+    background: white;
+    cursor: pointer;
+    color: #198754;
+}
+
+.info {
+    background: white;
+    color: #198754;
+    text-align: center;
+}
+
+.info-one {
+    font-weight: 800;
+}
+
+.p-second {
+    font-size: 12px;
+}
+
+.task {
+    background: #198754;
+    min-height: 300px;
+}
+.p-task {
+    padding-top: 10%;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+}
+
+.p-first-task {
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    font-weight: 900;
+}
+
+.goal {
+    color: white;
+}
+
+.goal i {
+    height: 100px;
+    width: 10%;
+    border: 3px solid white;
+    border-radius: 50px;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    margin-right: 3%;
+}
